@@ -1,3 +1,4 @@
+/* style top of the page start*/
 #banner {
     height:10em;
     background-image: url("https://cdn.pixabay.com/photo/2016/01/09/18/28/notebook-1130742__480.jpg");
@@ -15,15 +16,31 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
 }
+#top{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+#topPar{
+    font-weight: bolder;
+}
+#sort{
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: black 5px 5px 5px;
+}
+#sort:hover{
+    transform: scale(1.02);
+}
+/*style top of the page end*/
+
+/*style main part start*/
 #container {
     gap: 20px;
     row-gap: 4 5px;
     margin: 15px;
     justify-content: space-around;
-}
-
-.priority-amount{
-    background-color: greenyellow;
 }
 img{
     width: 100%;
@@ -58,3 +75,4 @@ img{
 .card:hover {
     transform: scale(1.05);
 }
+/*style main part end*/

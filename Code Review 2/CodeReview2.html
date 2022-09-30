@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style\CodeReview2.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,42 +37,33 @@
 
       <div id="banner">
         <p id="text-banner">My Planner</p>
-        <button id="sort">Sort</button>
+        
       </div>
-      <div id="container" class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 ms-auto">
+      <div id="top">
+        <p id="topPar">WEEKLY TASK</p>
+        <button id="sort">Sort by importance ⇡</button>
+    </div>
+      <main id="container" class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 ms-auto">
         <!--Filled from javascript-->
-      </div>
+      </main>      
+     
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <nav class="navbar bottom bg-dark">
-        <form class="container-fluid justify-content-start">
-          <button class="btn btn-outline-success me-2" type="button">Main button</button>
-          <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
-        </form>
+      <nav class="bottom navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">Sign up to our newsletter</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="your email" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="navbar-brand">
+            <p>© Copyright Code Factory 2022</p>
+        </div>
       </nav>
 
 
-      <script src="Scripts\CodeReview2.json"></script>;
-      <script src="Scripts\CodeReview2.js"></script>;
+      <script src="Scripts\CodeReview2.json"></script>
+      <script src="Scripts\CodeReview2.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 </body>
