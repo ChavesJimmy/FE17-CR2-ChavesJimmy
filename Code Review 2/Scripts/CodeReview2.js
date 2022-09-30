@@ -1,5 +1,6 @@
 let Task = JSON.parse(tasks);
 console.log(Task);
+console.log(Task.length);
 
 function print(){
     let newcard = document.getElementById("container");
@@ -16,9 +17,9 @@ function print(){
       <li class="list-group-item">Importance : <p class="priority-amount">${Task[i].importance}/5</p></li>
       <li class="list-group-item">Done ? => ${Task[i].done}</li>
     </ul>
-    <div class="card-body">
+    <div class="card-body all-btn">
       <a href="#" class="card-link btn-1">Increase priority</a>
-      <a href="#" class="card-link btn-2">Done</a>
+      <a href="#" class="card-link btn-2">Decrease priority</a>
     </div>
   </div>`
     
@@ -43,5 +44,26 @@ for (let i = 0; i < increaseButtons.length; i++){
         increase(i);
     })
 }
+
+// function to decrease the importance
+
+function decrease(i){
+    if(Task[i].importance != 0){
+    Task[i].importance--;
+    document.getElementsByClassName("priority-amount")[i].innerHTML = `${Task[i].importance}/5`
+
+    }
+
+}
+let decreaseButtons = document.getElementsByClassName("btn-2")
+
+// in for loop i=decreaseButtons.length but must be doesn't work if written let i = decreaseButtons.length so i added the value.
+for (let i = 6 ; i < decreaseButtons.length ; i--){
+    decreaseButtons[i].addEventListener("click", function(){
+        decrease(i);
+    })
+}
+
+
 
 

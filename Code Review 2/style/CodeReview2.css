@@ -22,7 +22,7 @@
     justify-content: space-around;
 }
 
-.priority{
+.priority-amount{
     background-color: greenyellow;
 }
 img{
@@ -45,6 +45,11 @@ img{
     border: double white;
     border-radius: 15px;
     padding: 10px;
+}
+.all-btn{
+    display: flex;
+    text-align: center;
+    font-weight: 500;
 }
 
 .card {
