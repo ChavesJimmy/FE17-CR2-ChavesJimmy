@@ -1,1 +1,17 @@
-body{background-color: aqua;}
+#banner {
+    height:10em;
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/09/18/28/notebook-1130742__480.jpg");
+    background-position: center;
+}
+#text-banner{
+    padding: 30px;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: black;
+    opacity: 65%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
