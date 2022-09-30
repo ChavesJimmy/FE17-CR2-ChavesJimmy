@@ -2,7 +2,7 @@ let tasks = `[
     {"taskName":"Shopping",
      "image":"https://cdn.pixabay.com/photo/2019/10/05/08/53/shop-4527402__480.jpg",
      "description":"Go buy food for the whole next week.",
-     "importance":9,
+     "importance":0,
      "time":"Friday",
      "done": "true"
 },
@@ -10,42 +10,42 @@ let tasks = `[
      "image":"https://media.istockphoto.com/photos/3d-render-of-kindergarten-room-kids-school-interior-picture-id1352343930?b=1&k=20&m=1352343930&s=170667a&w=0&h=MC1VNg6tX3c8sM58qNOjQ4ygxaDV3uw2RZt5pDOP5RE=",
      "description":"",
      "time":"every weekdays",
-     "importance":10,
+     "importance":0,
      "done": "true"
 },
 {"taskName":"Bake a cake",
      "image":"https://cdn.pixabay.com/photo/2015/03/12/10/37/birthday-669968__480.jpg",
      "description":"Bake a cake for Amelie's birthday. Note : it have to be full of Chocolate",
      "time":"Saturday",
-     "importance":2,
+     "importance":0,
      "done": "false"
 },
 {"taskName":"Call mama !",
 "image":"https://cdn.pixabay.com/photo/2019/02/21/10/25/old-phone-4011012__480.jpg",
 "description":"Call mama to give and take some news from the family",
 "time":"weekend",
-"importance":"1",
+"importance":0,
 "done": "false"
 },
 {"taskName":"Go to the park",
      "image":"https://cdn.pixabay.com/photo/2017/04/26/21/22/playground-2263827__480.jpg",
      "description":"go play outside with the kids",
      "time":"by good weather",
-     "importance":3,
+     "importance":0,
      "done": "false"
 },
 {"taskName":"mother/father time",
      "image":"https://cdn.pixabay.com/photo/2014/09/15/21/55/bikini-447502__480.png",
      "description":"x-rated",
      "time":"when the kids are sleeping",
-     "importance":"7",
+     "importance":0,
      "done": "true"
 },
 {"taskName":"Laundry",
      "image":"https://cdn.pixabay.com/photo/2017/08/06/09/14/people-2590564__480.jpg",
      "description":"Wash the clothes. Must separate color and white clothes",
      "time":"Tuesday and Friday",
-     "importance":"6",
+     "importance":0,
      "done": "true"
 }
 ]`
