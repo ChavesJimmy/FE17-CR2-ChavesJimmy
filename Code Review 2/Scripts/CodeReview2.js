@@ -48,25 +48,23 @@ for (let i = 0; i < increaseButtons.length; i++){
 }
 addClick();
 
-// function to decrease the importance (work but with an error in console, have to check it)
+// function to decrease the importance (it was a nightmare to set it up)
 
-/* function decrease(i){
+function decrease(i){
     if(Task[i].importance != 0){
     Task[i].importance--;
     document.getElementsByClassName("priority-amount")[i].innerHTML = `${Task[i].importance}/5`
-
     }
-
 }
-function addClick2(i){
+function addClick2(){
 let decreaseButtons = document.getElementsByClassName("btn-2")
 
-for (let i = (decreaseButtons.length)-1 ; i < decreaseButtons.length ; i--){
+for (let i = (decreaseButtons.length)-1 ; i >= 0 ; i--){
     decreaseButtons[i].addEventListener("click", function(){
         decrease(i);
     })
 }}
-addClick2(); */
+addClick2();
 
 
 //function to sort by importance
@@ -79,6 +77,7 @@ function sortByPriority(){
     newcard.innerHTML="";
     print();
     addClick();
+    addClick2();
 }
 
 
